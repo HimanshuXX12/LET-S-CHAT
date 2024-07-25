@@ -1,1 +1,1 @@
-Hey this is the Readme file  and you are seeing the Mern stack chat app
+Hey this is the Readme file  and you are seeing the Mern stack chat app and this is main branch
