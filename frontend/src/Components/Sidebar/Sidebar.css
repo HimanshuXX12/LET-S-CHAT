@@ -1,0 +1,87 @@
+.sidebar{
+    
+    background-color: #3e3c61;
+    color: white;
+    
+}
+
+
+.sidebar-header{
+    display: flex;
+    padding:0.6rem;
+    align-items: center;
+    gap:1.5rem;
+
+}
+
+.sidebar-header h1{
+    font-size: 11px;
+    font-weight: 400;
+    display: flex;
+    margin-right: 1.2rem;
+    align-items: center;
+     
+}
+
+.sidebar-header div{
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    
+}
+
+.imagger{
+    width:20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+
+
+
+.para{
+    font-size: 8px;
+}
+
+
+.logout-btn{
+    font-size: 9px;
+    background-color: #5d5b8d;
+    padding: 0.2rem 0.4rem;
+}
+
+.sidebar-input{
+    background-color:#3e3c61 ;
+    border: none;
+    font-size: 9px;
+    border-bottom: 2px dotted #4d4da3 ;
+    width: 100%;
+}
+.sidebar-input:focus{
+    outline: none;
+}
+
+
+.sidebar-main-image{
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 100%;
+    margin-left: 0.2rem;
+    background-color: white;
+}
+
+#last_message{
+    font-weight: 300;
+    font-size: 8px;
+    margin-top: 3px;
+}
+
+.sidebar-main-users{
+    transition: all 0.3s ease;
+}
+
+.sidebar-main-users:hover{
+    background-color: #2f2d52;
+    cursor: pointer;
+}

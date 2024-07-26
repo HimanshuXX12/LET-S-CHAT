@@ -1,0 +1,21 @@
+.right-header{
+    height: 10%;
+    padding:0.5rem 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color:#706ae9 ;
+    overflow: hidden;
+    justify-content: space-between;
+
+}
+
+.containers-icon{
+    display: flex;
+    gap:1rem;
+    cursor: pointer;
+}
+
+
+
+

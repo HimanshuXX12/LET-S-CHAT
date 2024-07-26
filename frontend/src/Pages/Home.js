@@ -1,9 +1,18 @@
 import React from 'react'
 import './CSS/Home.css'
+import Sidebar from '../Components/Sidebar/Sidebar';
+import Rightbar from '../Components/Rightbar/Rightbar';
 function Home() {
+   const clicker= async ()=>{
+      alert("Don't tap it");
+   }
   return (
-    <div>
-       Hello welcome to home page
+    <div className='home'>
+      <div className='home-container'>
+        
+        <Sidebar/>
+        <Rightbar/>
+      </div>
     </div>
   )
 }

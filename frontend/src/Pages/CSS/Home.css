@@ -1,0 +1,19 @@
+.home{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:#a7bcff ;
+}
+
+.home-container{
+    display: flex;
+    width:80%;
+    min-height: 80vh;
+    overflow: hidden;
+    border: 1px dotted black;
+    border-radius: 5px;
+    
+}
+
+

@@ -1,8 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import './CSS/LoginSignUp.css'
 import { Link } from 'react-router-dom';
+import avtar from '../Img/addAvatar.png'
 function LoginSignUp() {
     const [value,Setvalue]= useState('Login');
+    const [item,Setitem]= useState(false);
+
+    const imageHandler= async (e)=>{
+         Setitem(e.target.files[0]);
+    }
 
      const clicker= async ()=>{
          if(value==='Login')
@@ -38,7 +44,15 @@ function LoginSignUp() {
          <hr/>
          </div>
          <div>
-             <input type='file'/>
+                <input type='file' id="file" onChange={imageHandler} />
+                <label htmlFor='file' className='flex'>
+                 <div> <img src={item?URL.createObjectURL(item):avtar} className='avatar-image'/></div>
+                  {
+                    item?<p className='texter'>Avatar Added</p>
+                    :<p className='texter'>Add a Avatar</p>
+                  }
+                </label>
+                
          </div>
          <div className='diver'>
             <button className='btn mb-3 py-2 font-bold'>{value}</button>
